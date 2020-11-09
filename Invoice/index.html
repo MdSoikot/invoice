@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="invoice">
+        <div class="menu">
+
+        </div>
+
+        <div class="main">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <h5>Gross Commission Invoice</h5>
+                </div>
+                <div class="col-lg-6 col-md-6 top_btn">
+                    <button type="button" class="btn btn-success">Save & Preview</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-primary primary_2">Save & Send</button>
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+
+            <div class="details  mt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row ">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <h5><b>Partner Datails</b></h5>
+                                    <div class="content">
+                                        <div class="content_left">
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Name:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Macquire University</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Address:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Balaclava Road,Sydney,New South Wales,2109,Australia</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Contact:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Service:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Admission</p>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <h5><b>Client Datails</b></h5>
+                                    <div class="content">
+                                        <div class="content_right">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Name:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Heregurbinderbir Singh</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>DOB:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>1998-04-20</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Partner Client Id:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Partner:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Macquare University</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Product:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Bachelor of Information Technology with a Major in Web Dwsign and
+                                                        Development</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Branch:</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Macquare University</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p><b>Workflow</b></p>
+                                                </div>
+                                                <div class="col-8">
+                                                    <p>Admission</p>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="date_picker">
+                            <p style="margin-bottom: 0px!important;"><b>Invoice Date:</b></p>
+
+                            <input type="date" id="example" class="form-control">
+
+                            <p class="" style="margin-top: 10px!important;margin-bottom: 0px!important;"><b>Invoice Due
+                                    Date:</b></p>
+                            <input type="date" id="example" class="form-control">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="invoice_table">
+                <div class="row">
+                    <div class="col-lg-12">
+
+
+                        <table class="table table-responsive-lg table-bordered mt-5">
+                            <thead>
+                                <tr>
+                                    <th class="des" style="width: 200px;">Description</th>
+                                    <th>Total Fee</th>
+                                    <th>Commission Percent</th>
+                                    <th>Commission Ammount</th>
+                                    <th>Tax</th>
+                                    <th>Tax Ammount</th>
+                                    <th>Total Ammount</th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="table_body">
+                                <tr id='table_row_1'>
+                                    <td>
+                                        <input type="text" class="form-control">
+
+                                    </td>
+                                    <td>
+                                        <input type="number" id="total_fee_1" name="total_fee" onchange="onChange(1)"
+                                            class="form-control">
+
+                                    </td>
+
+
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" min='1' max="100" class="form-control"
+                                                id="com_percent_1" onchange="onChange(1)"
+                                                aria-label="Amount (to the nearest dollar)">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">%</span>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="number" id="com_ammount_1" class="form-control" disabled>
+
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <select class="form-control" id="t_tax_1" disabled >
+                                                <option value="10">GST(10%)</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="number" id="tax_ammount_1" class="form-control" disabled>
+
+                                    </td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="text" disabled class="form-control" id="t_total_ammount_1"
+                                                aria-label="Amount (to the nearest dollar)">
+                                            <!-- <div class="input-group-append">
+                                                <span class="input-group-text" onclick='closeItem(1)'> <i class="fas fa-times"></i></span>
+                                            </div> -->
+
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                    </div>
+                    </table>
+
+
+                </div>
+            </div>
+
+            <a href="" onclick="addTableRow(event)">
+                <i class="fas fa-plus"><span class="" style="padding-left:10px">Add new line</span></i>
+            </a>
+        </div>
+
+
+
+        <div class="discount">
+            <div class="row">
+                <div class="col-lg-7 discount_client">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <p style="font-size: 15px;"><b>Discount Given to Client:</b></p>
+
+                        </div>
+                        <div class="col-lg-4" style="margin-bottom: 20px;">
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="date" id="example" class="form-control">
+                        </div>
+                        <div class="row container">
+                            <div class="col-lg-12">
+                                <div class="net_revenue mt-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 left">
+                                            <p>Net Revenue</p>
+                                        </div>
+                                        <div class="col-lg-6 right">
+                                            <p>0.00</p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 total_count">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <p>Commission claimed:</p>
+                        </div>
+                        <div class="col-lg-7 ">
+                            <div class="input-group">
+                                <input type="text" class="form-control" disabled id="commission_claimed"
+                                    aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <p>Tax:</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="input-group">
+                                <input type="text" class="form-control" disabled id="total_ammount"
+                                    aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <p>Total Ammount(incl Tax):</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="input-group">
+                                <input type="text" class="form-control" disabled id="total_ammount_inc_tax"
+                                    aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <p>Total Paid:</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="input-group">
+                                <input type="text" class="form-control" autocomplete="off" onchange="totalDue()"
+                                    id="total_paid" aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <p>Total Due:</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="total_due" disabled
+                                    aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group mt-3">
+                        <label>Select Payment Option</label>
+                        <select class="form-control" id="sel1">
+                            <option>Default Bank Detail</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="border mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="payment_received">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h4 style="color: #03a9f5;">Payments Received</h4>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1" style="font-size: 13px;">
+                                    Mark this invoice as paid
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <h5>Add Notes</h5>
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <h5>Attachments</h5>
+
+                        </div>
+                        <div class="col-lg-1">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="add_payment_item">
+                <div class="col-lg-12">
+                    <div id="add_item">
+                        <div class="row">
+                            <div class="col-lg-3 mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">AUD</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2 mb-3">
+                                <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                        <option>Cheque</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mb-3">
+                                <div class="notes">
+                                    <textarea class="form-control" rows="4" cols="50"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mb-3">
+                                <input type="file" id="fileupload" style="display:none" />
+                                <div class="click_upload" id="file">
+                                    
+                                            <p style="font-weight: bold;">Click to upload</p>
+                                     
+                                </div>
+                            </div>
+                            <div class="col-lg-1 mb-3">
+                                <!-- <span class='input-group-text payment_delete' style='background-color:#e12a3a;color:#fff'
+                                    onclick='closeItem(event," + rowId + ")'> <i class='fas fa-trash-alt'></i></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="row container">
+                <div class="col-lg-12">
+                    <a href="" onclick="add_payment_item(event)">
+                        <i class="fas fa-plus"><span class="" style="padding-left:10px">Add new
+                                line</span></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="border mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="income_sharing mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h4 style="color: #03a9f5;">Income Sharing</h4>
+                        </div>
+
+                    </div>
+                    <div class="row mt-5">
+
+                        <div class="col-lg-2 mb-3">
+                            <div class="form-group">
+                                <select class="form-control" id="sel1">
+                                    <option>Select a receiver</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 mb-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">AUD</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1" style="font-size: 15px;">
+                                    Tax
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 mb-3">
+                            <input type="text" id="example" class="form-control">
+
+                        </div>
+
+                        <div class="col-lg-2 mb-3">
+                            <p>Total Ammount <span>0.0</span></p>
+
+
+                        </div>
+                        <div class="col-lg-2 mb-3">
+                            <p>Total including tax <span>0.0</span></p>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="border mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5" style="text-align: right;">
+            <div class="col-lg-12 top_btn">
+                <button type="button" class="btn btn-success">Save & Preview</button>
+                <button type="button" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-primary primary_2">Save & Send</button>
+                <button type="button" class="btn btn-secondary ">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $('#file').click(function () {
+            $('#fileupload').trigger('click');
+
+            document.getElementById("fileupload").style = "display:block";
+            document.getElementById("file").style = "display:none";
+
+        });
+
+
+    </script>
+    <script src="./index.js"></script>
+
+
+
+
+</body>
+
+</html>

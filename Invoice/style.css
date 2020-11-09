@@ -1,0 +1,152 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Roboto';
+}
+
+h5{
+    font-size: 18px!important;
+    font-weight: bold!important;
+}
+.invoice .menu{
+    height: 60px;
+    background-color: #000;
+}
+
+.main{
+    margin: 20px;
+}
+
+.main .top_btn{
+    text-align: right;
+}
+.main .top_btn button{
+    margin-right: 11px;
+    padding: 10px 20px 10px 20px; 
+}
+
+.main h5{
+    color: #03a9f5;
+}
+
+.main .card{
+    padding: 20px;
+}
+.main .card h5{
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+.date_picker{
+    float: right;
+    position: relative  ;
+}
+
+.date_picker p{
+    color: #000;
+}
+.date_picker input{
+    width: 300px; 
+}
+.content{
+    font-size: 14px;
+}
+
+.invoice_table{
+    font-size: 13px;
+}
+.invoice_table .table{
+    text-align: left;
+
+}
+.discount{
+    margin-top: 50px;
+}
+.discount input{
+    margin-left: 0px!important  ;
+
+    display: inherit;
+
+}
+
+.discount_input .input-group-append{
+    display: block;
+}
+.discount_input .form-control{
+width: 35%!important;
+
+}
+
+.discount_input{
+    margin-top: 50px;
+}
+
+.discount_client{
+    margin-top: 50px!important;
+    padding-right: 175px!important;
+
+}
+
+
+.net_revenue{
+border-width: 2px;
+    width: 316px;
+    border-style: dotted;
+    border-color: #ccc;
+    height: 116px;
+    background-color: rgb(252, 252, 252);
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.net_revenue .right{
+    text-align: right;
+    font-size: 40px;
+    color: #03a9f5;
+}
+
+
+.total_count{
+    font-weight: bold;
+    font-size: 15px;
+}
+.total_count input{
+    margin-bottom: 10px!important;
+}
+.total_count .input-group-append{
+    display: block;
+}
+
+
+.payment_received{
+    margin-top: 50px;
+}
+.payment_received h5{
+    font-size: 24px!important;
+    font-weight: 500!important;
+}
+
+.payment_received .net_revenue{
+    cursor: pointer;
+}
+
+.click_upload{
+    border-width: 2px;
+    text-align: center;
+        border-style: dotted;
+        border-color: #ccc;
+        height: 116px;
+        background-color: rgb(252, 252, 252);
+        padding: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+.payment_delete{
+    width: 39px;
+    margin-top: 50%;
+}
